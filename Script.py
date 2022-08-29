@@ -23,8 +23,8 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
-<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍᴀɢɴᴜs ᴛɢ</b>
-<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @MagnusTG</b>
+<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴅᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ</b>
+<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @DARKWEBLOAD</b>
 <b>ᴅᴏɴ'ᴛ ʙᴇ ᴀғʀᴀɪᴅ ᴏғ ʙᴇɪɴɢ ᴅɪғғᴇʀᴇɴᴛ, ʙᴇ ᴀғʀᴀɪᴅ ᴏғ ʙᴇɪɴɢ ᴛʜᴇ sᴀᴍᴇ ᴀs ᴇᴠᴇʀʏ ᴏɴᴇ ᴇʟsᴇ</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 - Eva Maria Supports both url and alert inline buttons.
