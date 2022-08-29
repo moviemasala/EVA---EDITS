@@ -819,7 +819,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>I couldn't find anything related to that\nDid you mean any one of these?\n\nനിങ്ങൾ ഉദ്ദേശിച്ച സിനിമ താഴെ കാണുന്നത് വല്ലതും ആണെങ്കിൽ അതിൽ ക്ലിക്ക് ചെയ്യുക</b>",
+    await msg.reply("<b>I couldn't find anything related to that Did you mean any one of these?\n\nനിങ്ങൾ ഉദ്ദേശിച്ച സിനിമ താഴെ കാണുന്നത് വല്ലതും ആണെങ്കിൽ അതിൽ ക്ലിക്ക് ചെയ്യുക</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
