@@ -2,14 +2,13 @@ class script(object):
     START_TXT = """<b>ʜᴇʟʟᴏ {}</b>
 <b>ᴍʏ ɴᴀᴍᴇ ɪs ᴀʟɪᴀ. ᴀ sᴍᴀʀᴛ ʀᴏʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ</b> <b>ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs & ʜᴇʟᴘ</b> <b>ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ.....🥰</b>"""
     HELP_TXT = """<b>𝖧ᴇʏ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ 🚩</b>"""
-    ABOUT_TXT = """                      
-<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : 𝖠𝗅𝗂𝖺</b>
-<b>○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=https://t.me/MagnusTG>𝖬𝖺𝗀𝗇𝗎𝗌 𝖳𝖦 🇮🇳</a></b>
-<b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</b>
-<b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</b>
-<b>○ 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖧𝖾𝗋𝗈𝗄𝗎</b>
-<b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈 𝖣𝖡</b>
-<b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵9.5 [𝖡𝖾𝗍𝖺]</b>"""
+    ABOUT_TXT = """<b>𓄼 му иαмє : <a href="https://t.me/DWL_Movies_Finder_bot">ʝαииιє</a></b>
+<b>𓄼 ¢яєαтσя : <a href="https://t.me/DARKWEBLOAD">𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a></b>
+<b>𓄼 ℓαиgυαgє : ρутнσи</b>
+<b>𓄼 ℓιвяαяу : ρуяσgяαм</b>
+<b>𓄼 ѕєяνєя : нєяσкυ</b>
+<b>𓄼 ∂αтα вαѕє : мσиgσ ∂в</b>
+<b>𓄼 вυιℓ∂ ѕтαтυѕ : ν10.0 [ɞeṭa]</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 <b>NOTE:</b>
