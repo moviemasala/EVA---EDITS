@@ -82,6 +82,18 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'📟 Files: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'🎁 Tips', 'tips'),
+            InlineKeyboardButton(f'📮 Info', 'info')
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -612,7 +624,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    elif query.data == 'tips':
+        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kaduva 2022\n\tⒸ @M4MHD", True)
+    elif query.data == 'reqst1':
+        await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
+    elif query.data == 'info':
+        await query.answer("⚠︎ Information ⚠︎\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ @M4MHD", True)
+    try: await query.answer('Piracy Is Crime')
+    except: pass
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -660,6 +679,18 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'📟 Files: {total_results}', 'dupe'),
+            InlineKeyboardButton(f'🎁 Tips', 'tips'),
+            InlineKeyboardButton(f'📮 Info', 'info')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -708,7 +739,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2022 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @M4MHD**</b></i>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -721,7 +752,8 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+         await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+    
     if spoll:
         await msg.message.delete()
 
