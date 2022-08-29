@@ -428,8 +428,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("👀")
     elif query.data == "dwl":
         buttons = [[
-            InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url='http://t.me/DWL_Movies_Finder_bot?startgroup=true')
-            ],[
             InlineKeyboardButton('📈 sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='owner')
             ],[
