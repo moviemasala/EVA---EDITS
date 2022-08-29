@@ -1,6 +1,7 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {}</b>
-<b>Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href="https://t.me/+_3JWnU7bAJUyZjg1">Uɴɪᴠᴇʀꜱᴀʟ Mᴏᴠɪᴇꜱ</a></b> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
+
+<b>Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href="https://t.me/+_3JWnU7bAJUyZjg1">Uɴɪᴠᴇʀꜱᴀʟ ᴍᴏᴠɪᴇꜱ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
     HELP_TXT = """<b>𝖧ᴇʏ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ 🚩</b>"""
     ABOUT_TXT = """<b>𓄼 му иαмє : <a href="https://t.me/DWL_Movies_Finder_bot">ʝαииιє</a></b>
 <b>𓄼 ¢яєαтσя : <a href="https://t.me/DARKWEBLOAD">𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a></b>
