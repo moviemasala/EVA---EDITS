@@ -84,14 +84,14 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
+            InlineKeyboardButton(f'📁 {search} 📁', 'reqst1')
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'📟 Files: {len(files)}', 'dupe'),
-            InlineKeyboardButton(f'🎁 Tips', 'tips'),
-            InlineKeyboardButton(f'📮 Info', 'info')
+            InlineKeyboardButton(f'ꜰɪʟᴇꜱ : {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'ᴛɪᴩꜱ', 'tips'),
+            InlineKeyboardButton(f'ɪɴꜰᴏ', 'info')
         ]
     )
 
@@ -701,14 +701,14 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
+            InlineKeyboardButton(f'📁 {search} 📁', 'reqst1')
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'📟 Files: {total_results}', 'dupe'),
-            InlineKeyboardButton(f'🎁 Tips', 'tips'),
-            InlineKeyboardButton(f'📮 Info', 'info')
+            InlineKeyboardButton(f'ꜰɪʟᴇꜱ : {total_results}', 'dupe'),
+            InlineKeyboardButton(f'ᴛɪᴩꜱ', 'tips'),
+            InlineKeyboardButton(f'ɪɴꜰᴏ', 'info')
         ]
     )
 
@@ -760,7 +760,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2022 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : ᴜɴɪᴠᴇʀꜱᴀʟ ᴍᴏᴠɪᴇꜱ**</b></i>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>〽️ Title : {search}</b>\n<b>📣 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2022 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : ᴜɴɪᴠᴇʀꜱᴀʟ ᴍᴏᴠɪᴇꜱ**</b></i>"
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
