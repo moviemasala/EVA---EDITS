@@ -75,7 +75,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**⚠️ READ THIS INSTRUCTION ⚠️\n\n🗣 നിങ്ങൾക്ക് ഫയൽസ് കിട്ടാനായി ഞങ്ങളുടെ ഗ്രൂപ്പ്/ചാനലിൽ ജോയിൻ ചെയ്തിരിക്കണം. ജോയിൻ ചെയ്ത ശേഷം 'Try Again' എന്ന ബട്ടനിൽ ക്ലിക്ക് ചെയ്താൽ ഫയൽ കിട്ടുന്നതായിരിക്കും.\n\n🗣 You must join our group/channel to get the files. After joining, click on 'Try Again' button and you will get the file.\n\n👇 JOIN AND & TRY 👇**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
