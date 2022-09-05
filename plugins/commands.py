@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/TeamEvamaria')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ʜᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -61,7 +61,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🔰 ꜰɪʀꜱᴛ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴩ 🔰", url=invite_link.invite_link
                 )
             ]
         ]
@@ -70,9 +70,9 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton(" 🔄 ᴛʀy ᴀɢᴀɪɴ", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 ᴛʀy ᴀɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**⚠️ READ THIS INSTRUCTION ⚠️\n\n🗣 നിങ്ങൾക്ക് ഫയൽസ് കിട്ടാനായി ഞങ്ങളുടെ ഗ്രൂപ്പ്/ചാനലിൽ ജോയിൻ ചെയ്തിരിക്കണം. ജോയിൻ ചെയ്ത ശേഷം 'Try Again' എന്ന ബട്ടനിൽ ക്ലിക്ക് ചെയ്താൽ ഫയൽ കിട്ടുന്നതായിരിക്കും.\n\n🗣 You must join our group/channel to get the files. After joining, click on 'Try Again' button and you will get the file.\n\n👇 JOIN AND & TRY 👇**",
