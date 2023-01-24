@@ -1,13 +1,14 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {}</b>
 
-<b>Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href="https://t.me/+_3JWnU7bAJUyZjg1">Uɴɪᴠᴇʀꜱᴀʟ ᴍᴏᴠɪᴇꜱ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
+<b>Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href="@MOVIE_MASALA_46">ᴍᴏᴠɪᴇ ᴍᴀsᴀʟᴀ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
     HELP_TXT = """<b>𝖧ᴇʏ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ 🚩</b>"""
     ABOUT_TXT = """<b>𓄼 му иαмє : <a href="https://t.me/DWL_Movies_Finder_bot">ʝαииιє</a></b>
-<b>𓄼 ¢яєαтσя : <a href="https://t.me/DARKWEBLOAD">𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a></b>
+<b>𓄼 ¢яєαтσя : <a href="https://t.me/ULTRON_M">Hᴜᴢᴀɪғ 🇮🇳 [ OғғLɪɴᴇ ]</a></b>
 <b>𓄼 ℓαиgυαgє : ρутнσи</b>
 <b>𓄼 ℓιвяαяу : ρуяσgяαм</b>
-<b>𓄼 ѕєяνєя : нєяσкυ</b>
+<b>𓄼 ѕєяνєя  : нєяσкυ</b></a></b>
+<b>𓄼 ℓαиgυαgє : ρутнσи</b>
 <b>𓄼 ∂αтα вαѕє : мσиgσ ∂в</b>
 <b>𓄼 вυιℓ∂ ѕтαтυѕ : ν10.0 [ɞeṭa]</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
@@ -24,7 +25,7 @@ class script(object):
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
 <b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴅᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ</b>
-<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @DARKWEBLOAD</b>
+<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @ULTRON_M</b>
 <b>ᴅᴏɴ'ᴛ ʙᴇ ᴀғʀᴀɪᴅ ᴏғ ʙᴇɪɴɢ ᴅɪғғᴇʀᴇɴᴛ, ʙᴇ ᴀғʀᴀɪᴅ ᴏғ ʙᴇɪɴɢ ᴛʜᴇ sᴀᴍᴇ ᴀs ᴇᴠᴇʀʏ ᴏɴᴇ ᴇʟsᴇ</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 - Eva Maria Supports both url and alert inline buttons.
